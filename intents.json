@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "嗨",
+         "patterns": ["嗨", "你好嗎", "有人在嗎？", "祝您今天順利", "有事嗎"],
+         "responses": ["哈囉!", "真高興又見面了！", "嗨！在這邊，有什麼需要我效勞的嗎？"],
+         "context_set": ""
+        },
+        {"tag": "再見",
+         "patterns": ["拜拜", "回頭見", "再見", "我要走了", "祝您今天過得愉快"],
+         "responses": ["很遺憾！你要走了:(", "待會再聊", "再見!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me Tim.", "I'm Tim!", "I'm Tim aka Tech With Tim."],
+         "context_set": ""
+        },
+        {"tag": "height",
+         "patterns": ["what is your height", "How tall", "Are you tall?"],
+         "responses": ["My height is 170cm.", "I'm not sure how tall I am!", "I'm tall"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
